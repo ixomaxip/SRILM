@@ -5,6 +5,7 @@
 #
 
 # SRILM = /home/speech/stolcke/project/srilm/devel
+SRILM = /root/repos/SRILM
 MACHINE_TYPE := $(shell $(SRILM)/sbin/machine-type)
 
 RELEASE := $(shell cat RELEASE)
