@@ -1,3 +1,4 @@
+-include .env.local
 #
 # Top-level Makefile for SRILM
 #
@@ -5,7 +6,7 @@
 #
 
 # SRILM = /home/speech/stolcke/project/srilm/devel
-SRILM = /root/repos/SRILM
+SRILM =$(REPO_PATH)
 MACHINE_TYPE := $(shell $(SRILM)/sbin/machine-type)
 
 RELEASE := $(shell cat RELEASE)

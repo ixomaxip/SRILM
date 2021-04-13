@@ -2,3 +2,4 @@
 **/obj
 **/test
 **/lib
+.env.local
